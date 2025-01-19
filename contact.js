@@ -3,7 +3,7 @@ $(document).ready(function () {
     emailjs.init("AXSu6_t_krnDZj4aF");
 
     $('#contactForm').on('submit', function (e) {
-        e.preventDefault();
+        e.preventDefault(); 
 
         const serviceID = 'service_x8tj2hp'; // Service ID Anda
         const templateID = 'template_qk9tf1c'; // Template ID Anda
